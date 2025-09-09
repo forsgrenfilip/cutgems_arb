@@ -1,0 +1,24 @@
+{
+  "name": "Cutgems Arbitrage DevContainer",
+  "dockerComposeFile": "../../compose.yaml",
+  "service": "arb",
+  "workspaceFolder": "/cutgems_arb",
+  "forwardPorts": [8012],
+  "overrideCommand": true,
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance",
+        "ms-ossdata.vscode-pgsql"
+      ]
+    }
+  }
+}

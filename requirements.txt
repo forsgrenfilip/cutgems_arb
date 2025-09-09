@@ -1,0 +1,6 @@
+# Python dependencies for your project
+psycopg2-binary
+ipykernel
+streamlit
+discord
+git+https://${GITHUB_TOKEN}@github.com/forsgrenfilip/cutgems_utils
