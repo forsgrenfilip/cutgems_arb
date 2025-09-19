@@ -3,6 +3,11 @@
   "dockerComposeFile": "../../compose.yaml",
   "service": "arb",
   "workspaceFolder": "/cutgems_arb",
+  "runServices": [
+    "arb",
+    "db",
+    "ollama"
+  ],
   "forwardPorts": [8012],
   "overrideCommand": true,
   "customizations": {
